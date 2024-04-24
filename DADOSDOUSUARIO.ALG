@@ -4,18 +4,18 @@ Var
    nome,sexo,estadoCivil: caracter
    tempoCasada:inteiro
    condicao:logico
-Inicio
 
+Inicio
    escreval("Informe seu nome: ")
    leia(nome)
-   escreval("Ol·, ",nome,". Informe seu sexo(F-FEMININO/M-MASCULINO): ")
+   escreval("Ol√°, ",nome,". Informe seu sexo(F-FEMININO/M-MASCULINO): ")
    leia(sexo)
    escreval("Agora digite seu estado civil: ")
-   escreval("∑Solteiro(a)")
-   escreval("∑Casado(a)")
-   escreval("∑Separado(a)")
-   escreval("∑Divorciado(a)")
-   escreval("∑Vi˙vo(a)")
+   escreval("¬∑Solteiro(a)")
+   escreval("¬∑Casado(a)")
+   escreval("¬∑Separado(a)")
+   escreval("¬∑Divorciado(a)")
+   escreval("¬∑Vi√∫vo(a)")
    leia(estadoCivil)
 
    se (estadoCivil = "casada") ou (estadoCivil = "CASADA") ou (estadoCivil = "Casada") e (sexo = "f") ou (sexo = "F")entao
@@ -25,7 +25,7 @@ Inicio
    fimse
    
    limpatela
-   escreval("==DADOS DO USU¡RIO==")
+   escreval("==DADOS DO USU√ÅRIO==")
    escreval("Nome: ",nome,".")
    escreval("Sexo: ",sexo,".")
    escreval("Estado Civil: ",estadoCivil,".")
