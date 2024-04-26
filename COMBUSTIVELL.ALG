@@ -1,4 +1,9 @@
 Algoritmo "combustivel"
+                        //Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível (codificado da
+                        //seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
+                        //que o preço do litro da gasolina é R$ 6,59 e o preço do litro do álcool é R$ 3,79.
+                        //Álcool: Até 25 litros, desconto de 2% por litro. Acima de 25 litros, desconto de 4% por litro
+                        //Gasolina: Até 25 litros, desconto de 3% por litro. Acima de 25 litros, desconto de 5% por litro
 
 Var
    forma:caractere
@@ -9,8 +14,8 @@ Inicio
    valorGasolina <- 6.59
 
    repita
-      escreval("Informe o tipo de combust�vel: ")
-      escreval("A - �lcool")
+      escreval("Informe o tipo de combustível: ")
+      escreval("A - Álcool")
       escreval("G - Gasolina")
       leia(forma)
    ate (forma = "a") ou (forma = "A") ou (forma = "g") ou (forma = "G")
@@ -30,7 +35,7 @@ Inicio
 
    escreval("=====DADOS DA COMPRA=====")
    se (forma = "a") ou (forma = "A") entao
-      forma <- " �lcool"
+      forma <- " álcool"
       valor <- valorAlcool
    senao
       se (forma = "g") ou (forma = "G") entao
@@ -38,7 +43,7 @@ Inicio
          valor <- valorGasolina
       fimse
    fimse
-   escreval("Tipo do combut�vel:",forma)
+   escreval("Tipo do combutível:",forma)
    escreval("Litros de", forma,":",litros,"L")
    escreval("Valor final: R$",valor)
    escreval("==========================")
