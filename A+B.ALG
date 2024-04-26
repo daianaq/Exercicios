@@ -1,3 +1,8 @@
+1. Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+que C, caso contrário, imprima que a A + B é maior que C.
+
+RESPOSTA:
+
 Algoritmo "A+B"
 
 Var
@@ -15,12 +20,12 @@ Inicio
 
    limpatela
    se a+b < c entao
-      escreval("A soma de A + B (",a+b, " ) � menor que C (",c," )")
+      escreval("A soma de A + B (",a+b, " ) é menor que C (",c," )")
    senao
       se a+b > c entao
-         escreval("A soma de A + B (",a+b, " ) � maior que C (",c," )")
+         escreval("A soma de A + B (",a+b, " ) é maior que C (",c," )")
       senao
-         escreval("A soma de A + B (",a+b, " ) � igual que C (",c," )")
+         escreval("A soma de A + B (",a+b, " ) é igual que C (",c," )")
       fimse
    fimse
    
