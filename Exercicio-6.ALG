@@ -1,11 +1,11 @@
 Algoritmo "media"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 27/04/2024
+                 //6. Escreva um programa que leia do teclado as duas notas de um aluno, calcule e exiba a mÃ©dia
+                 //aritmÃ©tica das notas. O programa deve, adicionalmente, exibir uma mensagem de parabÃ©ns
+                 //caso o aluno esteja aprovado (mÃ©dia superior ou igual a 6,0), mÃ©dia atÃ© 4,0, o aluno estÃ¡ em
+                 //recuperaÃ§Ã£o, caso a mÃ©dia seja inferior a 4,0 o aluno serÃ¡ reprovado.
+
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nota,soma,media:real
    i:inteiro
 
@@ -25,12 +25,12 @@ Inicio
       repita
          cabecalho()
          escreval("Informe as notas do aluno: ")
-         escreval(i,"ª nota:")
+         escreval(i,"Âª nota:")
          leia(nota)
 
          limpatela
          se (nota >= 10) ou (nota <= 0) entao
-            escreval("A",i,"ª nota é inválida!")
+            escreval("A",i,"Âª nota Ã© invÃ¡lida!")
          fimse
 
       ate (nota <= 10) e (nota >= 0)
@@ -42,17 +42,17 @@ Inicio
    cabecalho()
 
    se (media >= 7) entao
-      escreval ("Parabéns, você está aprovado!")
+      escreval ("ParabÃ©ns, vocÃª estÃ¡ aprovado!")
    senao
       se  (media >= 5) entao
-         escreval("Você está em recuperação!")
+         escreval("VocÃª estÃ¡ em recuperaÃ§Ã£o!")
       senao
          se (media < 5) entao
-            escreval("Você está reprovado!")
+            escreval("VocÃª estÃ¡ reprovado!")
          fimse
       fimse
    fimse
 
-   escreval("A média é: ",media)
+   escreval("A mÃ©dia Ã©: ",media)
 
 Fimalgoritmo
