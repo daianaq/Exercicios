@@ -1,4 +1,6 @@
 Algoritmo "OPERACOES"
+                     //5. Faça um programa que leia um código de operação (+,-,* ou /), e também dois valores inteiros A e B.
+                     //O programa deve calcular o resultado da operação escolhida aplicado a A e B.
 
 Var
    a,b,resultado:real
@@ -18,7 +20,7 @@ inicio
             se operacao = "/" entao
                retorne a / b
             senao
-               retorne escreval("Opera��o inv�lida!")
+               retorne escreval("Operação inválida!")
             fimse
          fimse
       fimse
@@ -28,7 +30,7 @@ fimfuncao
 Inicio
 
    repita
-      escreval("Informe a opera��o(+,-,*ou/)")
+      escreval("Informe a operação(+,-,*ou/)")
       leia(operacao)
    ate (operacao = "+") ou (operacao = "-") ou (operacao = "*") ou (operacao = "/")
 
