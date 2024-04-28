@@ -1,4 +1,12 @@
 Algoritmo "Feira"
+                 //Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+                                //Até 5 Kg:    /  Acima de 5 Kg:
+                 //Morango ->  R$ 2,50 por Kg  /  R$ 2,20 por Kg
+                 //Maçã ->     R$ 1,80 por Kg  /  R$ 1,50 por Kg
+                 //Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
+                 //receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a
+                 //quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor
+                 //a ser pago pelo cliente.
 
 Var
    qtdMorango, qtdMaca: real
@@ -7,7 +15,7 @@ Var
 Inicio
    escreval("Informe a quantidade de morangos em Kg: ")
    leia(qtdMorango)
-   escreval("Informe a quantidade de ma�a em Kg: ")
+   escreval("Informe a quantidade de maça em Kg: ")
    leia(qtdMaca)
 
    se (qtdMorango < 5.1) entao
@@ -42,8 +50,8 @@ Inicio
    fimse
    limpatela
    escreval("=========================================================")
-   escreval("Quilos de morango:", qtdMorango,"Kg. Pre�o do morango: R$",pMorango)
-   escreval("Quilos de ma�a:", qtdMaca,"Kg. Pre�o da ma�a: R$",pMaca)
+   escreval("Quilos de morango:", qtdMorango,"Kg. Preço do morango: R$",pMorango)
+   escreval("Quilos de maça:", qtdMaca,"Kg. Preço da maça: R$",pMaca)
    escreval("Valor do desconto: R$",desconto)
    escreval("Valor a ser pago: R$",valorFinal)
    escreval("==========================================================")
