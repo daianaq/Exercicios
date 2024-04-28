@@ -5,8 +5,6 @@ Algoritmo "Empréstimo"
                      //um solicitante, o valor total do empréstimo solicitado e o número de prestações que o solicitante
                      //deseja pagar e informe se o empréstimo pode ou não ser concedido.
 
-
-
 Var
    prestacao, emprestimo, rendaMensal: real
    numerosPrestacoes: inteiro
